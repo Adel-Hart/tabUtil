@@ -4,12 +4,8 @@
     "description": "save tab and sharing tab",
     "manifest_version":3,
 
-    "app": 
-        {
-            "background" : {
-                "scripts": ["scripts/background.js"]
-            }
-
-        }
+    "action": {
+        "default_popup": "popup.html"
+    }
 
 }
