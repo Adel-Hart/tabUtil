@@ -3,21 +3,21 @@
     <meta charset="UTF-8">
     <title>PopUp</title>
     <link rel="stylesheet" href="./style/style.css"/>
+    <link rel="stylesheet" href="./style/anim.css"/>
+    
 </head>
 <body>
     <div class = "container-main">
         
-        <div class = "save-box">
+        <div class = "save-box", id="div_saveTabs">
 
             
-            <button style="border:0.5px solid black;"></button>
-            <h>save tabs</h>
+            <button style="border:0px;", id="btn_saveTabs", value="save Tabs"></button>
 
         </div>
     
-        <div class = "load-box">
-            <button style="border:0.5px solid black;"></button>
-            <h>load Tabs</h>
+        <div class = "load-box", id="div_loadTabs">
+            <button style="border:0px;", id="btn_loadTabs", value="load Tabs"></button>
         </div>
 
         
@@ -25,6 +25,7 @@
     </div>
 
 
+    <script src="./scripts/ui.js"></script>
 
 
 </body>

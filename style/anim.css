@@ -1,0 +1,26 @@
+@keyframes concealMotherBtn{
+
+    0% {
+        opacity: 100%;
+    }
+    
+    100% {
+        opacity: 0%;
+        pointer-events: none; /* 버튼이 클릭되지 않도록 설정 */
+    }
+
+}
+
+@keyframes revealBtn2Down{
+
+    0%{
+        border: 0;
+    
+    }
+
+
+
+
+
+
+}
