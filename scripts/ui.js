@@ -6,29 +6,26 @@ document.addEventListener('DOMContentLoaded', () => { //요소가 로딩 덜 될
 
     const btn_saveTabs = document.getElementById('btn_saveTabs')
 
+    
+
+
+
     const div_saveTabs = document.getElementById('div_saveTabs')
 
 
 
-    btn_saveTabs.addEventListener('mouseover', () => {
+    // btn_saveTabs.addEventListener('mouseover', () => {
 
-        btn_saveTabs.style.animation = "concealMotherBtn 0.5s forwards"
+    //     btn_saveTabs.style.animation = "concealMotherBtn 0.5s forwards"        
 
-        
+    // });
 
-    });
-
-
+    // btn_saveTabs.addEventListener('mouseout', () => {
 
 
+    //     btn_saveTabs.style.animation = ""
 
-
-
-
-
-
-
-
+    // });
 
 
 
